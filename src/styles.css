@@ -1,0 +1,39 @@
+body {
+
+    margin: 0;
+    background-color: skyblue;
+}
+.product-container{
+
+    border: 1px solid;
+}
+.product-header{
+
+    display: flex;
+}
+
+.prix-bas{
+
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container-mt5 {
+    display: block;
+    width: 300px;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .input-group {
+    display: block;
+    margin-bottom: 10px; /* Add spacing between input groups */
+  }
+  
+  .container-mt5 label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  

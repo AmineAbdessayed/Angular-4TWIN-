@@ -1,0 +1,24 @@
+<div class="row mt-5">
+
+
+    <div class="col-3">
+    
+     <input [(ngModel)]="hero.name" type="text" class="form-control" placeholder="Name">
+    
+    </div>
+    <div class="col-3">
+    
+        <input  [(ngModel)]="hero.power"    type="text" class="form-control" placeholder="Power">
+       
+       </div>
+       <div class="col-3">
+    
+        <input  [(ngModel)]="hero.image" type="text" class="form-control" placeholder="Image Url">
+       
+       </div>
+       <div class="col-3">
+    
+    <button  (click)="ajouter()"class="btn form-control m-1 text-light" >Create </button>   
+    
+       </div>
+    </div>

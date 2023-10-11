@@ -1,0 +1,11 @@
+<div>
+    <h1>List produits</h1>
+    <ul>
+      <li *ngFor="let produit of products">
+        id: {{ produit.idProduit }} code: {{ produit.code }} libelle: {{ produit.libelle }} prix: {{ produit.prixUnitaire }} Taux: {{ produit.tauxTVA }}
+        <button (click)="calculateProductsCount(produit.libelle)">Calculer</button>
+        <span *ngIf="showCount && libelleToCount === produit.libelle">Nombre de produits avec le même libelle: {{ produitCount }}</span>
+      </li>
+    </ul>
+  </div>
+  
